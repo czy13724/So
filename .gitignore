@@ -1,0 +1,18 @@
+# 系统临时文件与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp*
+.DS_Store
+.idea/
+.vscode/
+
+# 脚本与本地发布工具（不纳入本仓库）
+*.py
+*.js
+*.sh
+
+# 动态库二进制与归档（通过 GitHub Releases 独立发放）
+releases/
+*.so
+*.zip
